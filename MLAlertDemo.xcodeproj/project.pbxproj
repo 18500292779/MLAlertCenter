@@ -15,6 +15,7 @@
 		283B1B581D0163BA0071B509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283B1B561D0163BA0071B509 /* LaunchScreen.storyboard */; };
 		283B1B631D0163BA0071B509 /* MLAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B1B621D0163BA0071B509 /* MLAlertDemoTests.m */; };
 		283B1B6E1D0163BA0071B509 /* MLAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283B1B6D1D0163BA0071B509 /* MLAlertDemoUITests.m */; };
+		B1CA9BDA1E850FD800651BCD /* MLAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CA9BD91E850FD800651BCD /* MLAlertCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		283B1B691D0163BA0071B509 /* MLAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		283B1B6D1D0163BA0071B509 /* MLAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAlertDemoUITests.m; sourceTree = "<group>"; };
 		283B1B6F1D0163BA0071B509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CA9BD81E850FD800651BCD /* MLAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlertCenter.h; sourceTree = "<group>"; };
+		B1CA9BD91E850FD800651BCD /* MLAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlertCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				283B1B4C1D0163BA0071B509 /* AppDelegate.m */,
 				283B1B4E1D0163BA0071B509 /* ViewController.h */,
 				283B1B4F1D0163BA0071B509 /* ViewController.m */,
+				B1CA9BD71E850FD800651BCD /* MLAlertCenter */,
 				283B1B511D0163BA0071B509 /* Main.storyboard */,
 				283B1B541D0163BA0071B509 /* Assets.xcassets */,
 				283B1B561D0163BA0071B509 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				283B1B6F1D0163BA0071B509 /* Info.plist */,
 			);
 			path = MLAlertDemoUITests;
+			sourceTree = "<group>";
+		};
+		B1CA9BD71E850FD800651BCD /* MLAlertCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA9BD81E850FD800651BCD /* MLAlertCenter.h */,
+				B1CA9BD91E850FD800651BCD /* MLAlertCenter.m */,
+			);
+			path = MLAlertCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CA9BDA1E850FD800651BCD /* MLAlertCenter.m in Sources */,
 				283B1B501D0163BA0071B509 /* ViewController.m in Sources */,
 				283B1B4D1D0163BA0071B509 /* AppDelegate.m in Sources */,
 				283B1B4A1D0163BA0071B509 /* main.m in Sources */,
@@ -498,6 +512,7 @@
 				283B1B741D0163BA0071B509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		283B1B751D0163BA0071B509 /* Build configuration list for PBXNativeTarget "MLAlertDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				283B1B771D0163BA0071B509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		283B1B781D0163BA0071B509 /* Build configuration list for PBXNativeTarget "MLAlertDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				283B1B7A1D0163BA0071B509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
