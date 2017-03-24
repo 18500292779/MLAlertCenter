@@ -91,7 +91,6 @@ static MLAlertCenter *center = nil;
     contentLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, MaxWidth, 16)];
     contentLabel.font = [UIFont systemFontOfSize:TextFont];
     contentLabel.numberOfLines = 0;
-    contentLabel.textAlignment=NSTextAlignmentCenter;
     contentLabel.textColor=[UIColor whiteColor];
     [groundView addSubview:contentLabel];
     
